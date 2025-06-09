@@ -1,0 +1,40 @@
+name: expense
+description: "A new IE project."
+publish_to:
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: 4.7.2
+  get_storage: 2.1.1
+  font_awesome_flutter: 10.8.0
+  firebase_core: 3.13.1
+  cloud_firestore: 5.6.8
+  lottie: 3.3.1
+  intl: 0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/lottie/
+
+  fonts:
+     - family: NotoSerif
+       fonts:
+         - asset: assets/fonts/NotoSerif-Regular.ttf
+           weight: 500
+         - asset: assets/fonts/NotoSerif-Bold.ttf
+           weight: 900
+         - asset: assets/fonts/NotoSerif-Medium.ttf
+           weight: 600
+         - asset: assets/fonts/NotoSerif-SemiBold.ttf
+           weight: 800
