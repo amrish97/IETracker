@@ -1,7 +1,8 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=E:\flutter-sdk\flutter_windows_3.27.2-stable\flutter"
-export "FLUTTER_APPLICATION_PATH=C:\Users\User\StudioProjects\expense"
+export "FLUTTER_ROOT=C:\Users\Administrator\Downloads\fluttersdk\flutter_windows_3.44.0-stable\flutter"
+export "FLUTTER_APPLICATION_PATH=C:\Users\Administrator\StudioProjects\flutter_with_backend"
+export "FLUTTER_FRAMEWORK_SWIFT_PACKAGE_PATH=C:\Users\Administrator\StudioProjects\flutter_with_backend\ios\Flutter\ephemeral\Packages\.packages\FlutterFramework"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_TARGET=lib\main.dart"
 export "FLUTTER_BUILD_DIR=build"
